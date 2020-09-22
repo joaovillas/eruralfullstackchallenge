@@ -1,0 +1,25 @@
+version: '3'
+services:
+  front:
+    build: ./front
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./front:/usr/app
+    entrypoint: "npm start"
+
+  backend:
+    build: ./backend
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./backend:/app
+    command:  bundle exec rails s -p 3001 -b '0.0.0.0'
+
+  chatapi:
+    build: ./chatapi
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./chatapi:/usr/app
+    entrypoint: 'yarn dev'

@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container .page {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+  align-self: center;
+  width: 85vw;
+  height: 85vh;
+}

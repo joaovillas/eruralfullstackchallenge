@@ -1,0 +1,43 @@
+.chat-container {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-self: center;
+}
+
+.chat-container .row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  align-items: center;
+  border: 1px solid #6C63FF;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.chat-container .row form {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-container .row form input {
+  width: 450px;
+  height: 35px;
+  border: 1px solid #6C63FF;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #6C63FF;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  color: #FFF;
+}
+
+.btn:hover {
+  background-color: #2316FF;
+}

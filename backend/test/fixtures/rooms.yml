@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  uri: MyString
+  video_url: MyString
+  room_title: MyString
+  is_active: false
+
+two:
+  uri: MyString
+  video_url: MyString
+  room_title: MyString
+  is_active: false
